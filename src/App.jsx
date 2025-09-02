@@ -25,7 +25,7 @@ export default function App() {
           return updated;
         } else return [...hired, state.person]
         // const exists = hired.some(p => p.login.uuid === state.person.login.uuid);
-        // return exists ? hired : [...hired, state.person];
+        // return exists ? hired : [...hired, state.person];d
       })
     }
   }, [state])
